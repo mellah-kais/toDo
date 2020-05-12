@@ -48,3 +48,9 @@ function tickFinish(id){
 	console.log(id)
 	$("#"+id).parent().css('background-color','green')
 }
+$('#todo-value').keypress(function(e){
+	if(e.which == 13){
+		addTodo()
+		$('#todo-value').val("")
+	}
+})

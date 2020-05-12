@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 body {
 	background-image: url("../img/bg-pattern.png'");
 }
@@ -28,6 +29,7 @@ body {
 	text-align : center;
 }
 input {
+	font-family: 'Pacifico', cursive;
 	padding-left: 20px;
     border:none;
     background-image:none;
@@ -37,10 +39,12 @@ input {
     box-shadow: none;
 }
 #todo-value {
-	background: #C4C4C4;
-	border-radius: 0px 10px 10px 10px;
-	width: 90%;
-	height: 41px;
+	color: darkslategrey;
+    font-size: 17px;
+    background: #C4C4C4;
+    border-radius: 0px 10px 10px 10px;
+    width: 90%;
+    height: 40px;
 }
 .todo-section {
 	width:80%;
@@ -72,6 +76,7 @@ input {
 	margin-bottom:10px
 }
 .theTodo{
+	font-family: 'Pacifico', cursive;
 	padding-left:10px;
 	width:90%;
 }
@@ -96,5 +101,8 @@ input {
     font-weight: 600!important;
     font-size: 18px;
     line-height: 28px;
+}
+.oliveGreen {
+	background-color: darkolivegreen;
 }
 

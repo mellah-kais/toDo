@@ -46,7 +46,7 @@ $('#btn').on('click',function(){
   }
 function tickFinish(id){
 	console.log(id)
-	$("#"+id).parent().css('background-color','green')
+	$("#"+id).parent().toggleClass("oliveGreen");
 }
 $('#todo-value').keypress(function(e){
 	if(e.which == 13){
